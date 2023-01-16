@@ -6,7 +6,7 @@
 
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 100000px) {
 
    .upper_header{
       height: 3vw;
@@ -14,6 +14,10 @@
 
    .upper_header_left img{
       width: 2.5vw;
+   }
+
+   .menu-button{
+      display: none;
    }
 
 }
@@ -31,6 +35,10 @@
 
    .header_right img{
       width: 3vw;
+   }
+
+   .menu-button{
+      display: block;
    }
 
 /* ---------------- */
